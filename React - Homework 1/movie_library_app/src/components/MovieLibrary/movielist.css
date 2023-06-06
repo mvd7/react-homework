@@ -1,0 +1,30 @@
+ul {
+  list-style: none;
+}
+
+.movieCard {
+  width: 250px;
+  height: 400px;
+  border-radius: 4px;
+  color: #62cd32;
+  background-color: #d3d3d3;
+  margin: 0% 0% 0.5% 0%;
+  border: 1px solid #626363;
+  box-sizing: border-box;
+}
+
+.movieCard > img {
+  width: 185px;
+  border-radius: 4px;
+}
+
+.movieCard > h4 {
+  color: #2b2b2b;
+}
+
+.movieContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
