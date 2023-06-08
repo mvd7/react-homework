@@ -1,0 +1,36 @@
+.counter-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.Odd {
+  color: red;
+}
+
+.Even {
+  color: rgb(111, 255, 111);
+}
+
+.counter-box {
+  width: 200px;
+  height: 300px;
+  border: 3px solid greenyellow;
+  background-color: rgb(221, 218, 218);
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.counter-box > button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
