@@ -22,6 +22,14 @@ const UsersRegistered = (props) => {
               </button>
             </li>
           ))}
+          <div className="remove-all-container">
+            <button
+              className="remove-button remove-all"
+              onClick={() => props.handleRemoveAllUsers()}
+            >
+              Delete All Users
+            </button>
+          </div>
         </ul>
       ) : (
         <p className="no-users">No registered users</p>

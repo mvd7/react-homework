@@ -54,12 +54,17 @@ const RegistrationForm = () => {
     setFullName("");
     setEmail("");
     setPassword("");
+    setErrors({});
   };
 
   const handleRemoveUser = (id) => {
     const remainingUsers = registeredUsers.filter((user) => user.id !== id);
 
     setRegisteredUsers(remainingUsers);
+  };
+
+  const handleRemoveAllUsers = () => {
+    setRegisteredUsers([]);
   };
 
   return (
@@ -113,6 +118,7 @@ const RegistrationForm = () => {
       <UsersRegistered
         registeredUsers={registeredUsers}
         handleRemoveUser={handleRemoveUser}
+        handleRemoveAllUsers={handleRemoveAllUsers}
       />
     </div>
   );
