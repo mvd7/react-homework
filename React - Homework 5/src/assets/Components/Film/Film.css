@@ -1,0 +1,35 @@
+.film-card {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+  width: 400px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(#ffe81f, #975858);
+  border: 2px solid #ffe81f;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  animation: glowing 3s linear infinite;
+  color: black;
+}
+
+.films-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 2px #ffe81f;
+  }
+  50% {
+    box-shadow: 0 0 5px #ffe81f, 0 0 10px #ffe81f, 0 0 23px #ffe81f;
+  }
+  100% {
+    box-shadow: 0 0 2px #ffe81f;
+  }
+}
