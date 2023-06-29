@@ -1,0 +1,62 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todos-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.todo-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.todo-card h3 {
+  margin-bottom: 5px;
+}
+
+.todo-card label {
+  margin-bottom: 5px;
+}
+
+.todo-card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.todo-card button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-card button:hover {
+  background-color: #d32f2f;
+}
+
+.todos-summary {
+  margin-top: 20px;
+}
+
+.todos-summary h3 {
+  margin-bottom: 10px;
+}
+
+.todos-counter {
+  width: 200px;
+  padding: 0px 10px 0px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
